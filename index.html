@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de equipos de fútbol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body class="bg-gray-200 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-md mx-auto">
+        <h1 class="titulo">Registro de equipos de fútbol</h1>
+        <div class="form-container">
+            <form id="teamForm">
+                <div class="input-group">
+                    <label for="teamName">Nombre del equipo:</label>
+                    <input type="text" id="teamName" required>
+                </div>
+                <div class="input-group">
+                    <label for="city">¿De qué ciudad es?</label>
+                    <input type="text" id="city" required>
+                </div>
+                <div class="input-group">
+                    <label for="foundedYear">Año en que se fundó:</label>
+                    <input type="number" id="foundedYear" required>
+                </div>
+                <div class="input-group">
+                    <label for="titles">Número de títulos:</label>
+                    <input type="number" id="titles" required>
+                </div>
+                <div class="input-group">
+                    <label for="stadium">Sede o estadio:</label>
+                    <input type="text" id="stadium" required>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn btn-green">Agregar equipo</button>
+                    <button type="button" id="removeAll" class="btn btn-red">Remover todos</button>
+                </div>
+            </form>
+        </div>
+        <h2 class="subtitulo">Equipos registrados</h2>
+        <ul id="teamList" class="team-list">
+            <!-- No incluye elementos de lista de equipos aquí -->
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

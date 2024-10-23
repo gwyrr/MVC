@@ -1,0 +1,74 @@
+/* Estilos generales */
+.titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.form-container {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    color: #4A5568; /* gray-700 */
+    margin-bottom: 0.5rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #CBD5E0; /* gray-300 */
+    border-radius: 0.5rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para botones */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.btn-green {
+    background-color: #48BB78; /* green-500 */
+}
+
+.btn-red {
+    background-color: #F56565; /* red-500 */
+}
+
+/* Estilos de equipos registrados */
+.subtitulo {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.team-list {
+    margin-top: 1rem;
+}
+
+.team-item {
+    background-color: #2D3748; /* gray-800 */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
